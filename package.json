@@ -1,0 +1,28 @@
+{
+  "name": "bytechcoin-crypto",
+  "version": "0.0.3",
+  "description": "Node C++ Addon for BytechCoin Cryptographic Functions",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-gyp build",
+    "install": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bytechcoin/node-bytechcoin-crypto.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bytechcoin/node-bytechcoin-crypto/issues"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "engineStrict": true,
+  "homepage": "https://github.com/bytechcoin/node-bytechcoin-crypto#readme",
+  "author": "The BytechCoin Developers",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "bindings": "^1.4.0",
+    "nan": "^2.12.1"
+  }
+}
